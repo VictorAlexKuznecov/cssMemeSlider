@@ -3,7 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="./img/meme.ico" />
+    <title>Css Meme Slider</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1 class="title">Css Meme Slider</h1>
+        <input type="radio" name="slider" id="slide-1" checked />
+        <input type="radio" name="slider" id="slide-2" />
+        <input type="radio" name="slider" id="slide-3" />
+        <input type="radio" name="slider" id="slide-4" />
+        <div class="slider__wrapper">
+          <div class="slider">
+            <div class="slides-line">
+              <div class="slide__item active">
+                <img class="slide__img" src="./img/1.jpg" alt="#" />
+                <p class="slide__text">
+                  Ощущение, когда устанавливаешь npm-пакеты
+                </p>
+              </div>
+              <div class="slide__item">
+                <img class="slide__img" src="./img/2.jpg" alt="#" />
+                <p class="slide__text">Инструменты для разработки</p>
+              </div>
+              <div class="slide__item">
+                <img class="slide__img" src="./img/3.jpg" alt="#" />
+                <p class="slide__text">Путешествие в мир Frontend</p>
+              </div>
+              <div class="slide__item">
+                <img class="slide__img" src="./img/4.jpg" alt="#" />
+                <p class="slide__text">Часть процесса разработки</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dots">
+          <label class="label-dot" for="slide-1">
+            <div class="dot__inner">
+              <span class="dot"></span>
+            </div>
+          </label>
+          <label class="label-dot" for="slide-2">
+            <div class="dot__inner">
+              <span class="dot"> </span>
+            </div>
+          </label>
+          <label class="label-dot" for="slide-3">
+            <div class="dot__inner">
+              <span class="dot"></span>
+            </div>
+          </label>
+          <label class="label-dot" for="slide-4">
+            <div class="dot__inner">
+              <span class="dot"></span>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
