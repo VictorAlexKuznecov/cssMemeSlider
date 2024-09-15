@@ -60,7 +60,10 @@ body {
   background-color: #fff;
   transition: 0.4s ease-in-out;
 }
-
+.dot__inner:hover .dot {
+  background-color: #fff;
+  transition: 0.4s ease-in-out;
+}
 .dot__inner {
   display: flex;
   justify-content: center;
